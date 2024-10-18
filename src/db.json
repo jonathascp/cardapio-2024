@@ -1,0 +1,16 @@
+{
+  "cardapio": [
+    {
+      "id": "1e9e",
+      "prato": "Pizza",
+      "bebida": "Suco de uva",
+      "sobremesa": "Pudim"
+    },
+    {
+      "id": "83b6",
+      "prato": "Pizza",
+      "bebida": "Coca-cola",
+      "sobremesa": "Bolo de chocolate"
+    }
+  ]
+}
