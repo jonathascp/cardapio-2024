@@ -11,6 +11,18 @@
       "prato": "Pizza",
       "bebida": "Coca-cola",
       "sobremesa": "Bolo de chocolate"
+    },
+    {
+      "id": "6c35",
+      "prato": "Não selecionado",
+      "bebida": "Não selecionado",
+      "sobremesa": "Não selecionado"
+    },
+    {
+      "id": "05d5",
+      "prato": "Churrasco",
+      "bebida": "Coca-cola",
+      "sobremesa": "Pudim"
     }
   ]
 }

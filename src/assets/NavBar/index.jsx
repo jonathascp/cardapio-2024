@@ -1,8 +1,7 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
-const NavBarEstilizada = styled.nav`
-
-`;  
+const NavBarEstilizada = styled.nav``;  
 
 const ListaEstilizada = styled.li`
     font-size: 1.3em;
@@ -17,6 +16,19 @@ const UlEstilizado = styled.ul`
 
 `;
 
+const BotaoLink = styled.button`
+    background: none;
+    border: none;
+
+    a {
+        font-family: "Roboto Mono",sans-serif;
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        font-size: 1.35em;
+    }
+`;
+
 export default function NavBar()
 {
     return (
@@ -24,10 +36,15 @@ export default function NavBar()
             <NavBarEstilizada>
                 <UlEstilizado>
                     <ListaEstilizada>
-                            Início
+                        <BotaoLink>
+                            <Link to="/">Início</Link>
+                        </BotaoLink> 
                     </ListaEstilizada>
+                    
                     <ListaEstilizada>
-                            Pedidos
+                        <BotaoLink>
+                            <Link to="/pedidos">Pedidos</Link>
+                        </BotaoLink>
                     </ListaEstilizada>
                 </UlEstilizado>                           
             </NavBarEstilizada>
